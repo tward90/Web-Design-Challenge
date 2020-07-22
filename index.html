@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>City Weather Documentation</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <nav class="navbar navbar-light">
+      <a class="navbar-brand" href="index.html">Home</a>
+      <div class="dropdown show pull-lef">
+        <button class="btn btn-secondary btn dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Plots
+        </button>
+        <div class="dropdown-menu dropdown-menu-lg-right" aria-labelledby="dropdownMenuButton">
+          <a class="dropdown-item" href="temperature.html">Latitude vs. Temperature</a>
+          <a class="dropdown-item" href="humidity.html">Latitude vs. Humidity</a>
+          <a class="dropdown-item" href="cloudiness.html">Latitude vs. Cloudiness</a>
+          <a class="dropdown-item" href="wind_speed.html">Latitude vs. Wind Speed</a>
+        </div>
+      </div>
+  </nav>
+  <div class="container">
+<!-- ROW ONE! -->
+    <div class="row">
+      <div class="col-md-12">
+        <H1 class="intro">Disecting Weather with Data!</H1>
+      </div>
+    </div>
+<!-- ROW TWO! -->
+    <div class="row">
+      <div class="col-md-12">
+        <img width="100%" src="Resources/images/stormy_sydney.jpg" />
+      </div> 
+    </div>
+<!-- ROW THREE! -->
+  <div class="row">
+    <div class="col-md-12">
+        <p>
+            The purpose of this project was to analyze how weather
+            changes as you approach the equator. To accomplish this
+            analysis, we first needed to pull data from the
+            OpenWeatherMap API to assemble a randomized dataset
+            of over 500 cities.
+        </p>
+
+        <p>
+          After assembling the dataset, we used Matplotlib to
+          plot various aspects of the weather vs. latitude. Some
+          factors that we analyzed included:
+      </p>
+
+    </div>
+  </div>
+<!-- ROW FOUR! -->
+  <div class="row">
+    <div class="col-md-3">
+        <ul>
+            <li>Temperature</li>
+            <li>Cloudiness</li>
+            <li>Windspeed</li>
+            <li>Humidity</li>
+        </ul>
+    </div>
+    <!-- <div class="col-md-9">
+      <img width=400px   src="Resources/tornado.jpeg" />
+    </div> -->
+  </div>
+        <p>
+            This site provides the source data and visualizations
+            created as part of the analysis as well as the explanations
+            and descriptions of any trends and correlations that were
+            observed.
+        </p>
+  </div>  
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
