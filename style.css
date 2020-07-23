@@ -18,6 +18,7 @@
 }
 H2 {
     font-family: comic sans MS, comic sans, cursive;
+    padding: 15px;
 }
 
 .btn-primary {
@@ -55,4 +56,14 @@ H2 {
 
 .bg-faded {
     padding-left: 15px;
+}
+
+th {
+    padding: 5px;
+    text-align: center;
+}
+
+td {
+    padding: 5px;
+    text-align: center;
 }
