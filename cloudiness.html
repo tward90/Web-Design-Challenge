@@ -9,18 +9,27 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-light">
-        <a class="navbar-brand" href="index.html">Home</a>
-        <div class="dropdown show">
-            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Plots
+    <nav class="navbar navbar-light navbar-expand-md bg-faded">
+        <div class="intro_small">
+          <a href="index.html" class="navbar-brand d-flex w-50 mr-auto">DISECTING WEATHER WITH DATA!</a>
+        </div>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsingNavbar3">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="navbar-collapse collapse w-100 justify-content-end" id="collapsingNavbar3">
+          <div class="dropdown btn-group">
+            <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" id="collapsingNavbar3">
+              Plots
             </button>
-            <div class="dropdown-menu dropdown-menu-lg-right" aria-labelledby="dropdownMenuButton">
-            <a class="dropdown-item" href="temperature.html">Latitude vs. Temperature</a>
-            <a class="dropdown-item" href="humidity.html">Latitude vs. Humidity</a>
-            <a class="dropdown-item active" href="cloudiness.html">Latitude vs. Cloudiness</a>
-            <a class="dropdown-item" href="wind_speed.html">Latitude vs. Wind Speed</a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="temperature.html">Latitude vs. Temperature</a>
+              <a class="dropdown-item" href="humidity.html">Latitude vs. Humidity</a>
+              <a class="dropdown-item active" href="cloudiness.html">Latitude vs. Cloudiness</a>
+              <a class="dropdown-item" href="wind_speed.html">Latitude vs. Wind Speed</a>
             </div>
+          </div>
+          <a class="btn btn-secondary" href="comparison.html" role="button">Comparisons</a>
+          <a class="btn btn-secondary" href="data.html" role="button">Data</a>
         </div>
     </nav>
     <div class="container">
