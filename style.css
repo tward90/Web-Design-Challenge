@@ -1,5 +1,5 @@
 .navbar-light {
-    background-color: #9dd1e5;
+    background-color: #f3f4f5;
   }
 
 .intro {
@@ -14,13 +14,20 @@
 
 .row {
     padding-top: 15px;
-    /* padding-bottom: 0px; */
 }
+
+H1 {
+    padding-bottom: 15px;
+}
+
 H2 {
-    font-family: comic sans MS, comic sans, cursive;
+    font-family: "comic sans MS", sans-serif, cursive;
     padding: 15px;
 }
 
+H4 {
+    text-align: center;
+}
 .btn-primary {
     background-color: #75bfdd;
     font-weight: bold;
@@ -41,17 +48,13 @@ H2 {
 .btn-secondary {
     margin: 5px;
     margin-top: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
     margin-right: 5px;
     border-radius: 5px;
 }
 
 .top_row {
     background-color: #9dd1e5;
-}
-
-.dropdown-menu {
-
 }
 
 .bg-faded {
@@ -66,4 +69,27 @@ th {
 td {
     padding: 5px;
     text-align: center;
+}
+
+.index_image {
+    padding-bottom: 20px;
+}
+
+.img_sidebar {
+    padding-bottom: 25px;
+    align-content: center
+}
+
+.sidebar{
+    background-color: ;
+}
+
+body {
+    padding-bottom: 50px;
+}
+
+@media (max-width: 767px) {
+    .navbar-light {
+        background-color: #9dd1e5;
+      }
 }
